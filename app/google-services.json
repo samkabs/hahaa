@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "570926704004",
+    "firebase_url": "https://imageshare-b21d9.firebaseio.com",
+    "project_id": "imageshare-b21d9",
+    "storage_bucket": "imageshare-b21d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570926704004:android:7983ab82080fc0f3e669d1",
+        "android_client_info": {
+          "package_name": "com.example.imageshare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570926704004-rsbh26rp401uvsed2604muf7bono825s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3k7LM7L4G8DzbdXUaiC-BEo-9ajKUqZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "570926704004-rsbh26rp401uvsed2604muf7bono825s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity3"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="8dp"
+    android:backgroundTint="#C51150"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="8dp"
+
+    >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gradient_1">
+
+    <com.zolad.zoominimageview.ZoomInImageView
+        android:id="@+id/image_charge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ready"
+        android:layout_centerVertical="true"
+        android:src="@drawable/it_charges"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/ready"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="@string/appreciate"
+        android:textColor="#0C2397"
+        android:textSize="20sp" />
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

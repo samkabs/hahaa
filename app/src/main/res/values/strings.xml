@@ -1,0 +1,32 @@
+<resources>
+
+    <string name="app_name">My Kenyan mall</string>
+    <string name="front_view">FrontView</string>
+    <string name="ksh">ksh-</string>
+    <string name="app_id">ca-app-pub-4449860337549137~6071454334</string>
+    <string name="back_view">BackView</string>
+    <string name="side_view">SideView</string>
+    <string name="item_name">  @BusinessName\n
+                               ItemName</string>
+    <string name="item_description">Item description</string>
+    <string name="cost_ksh">Cost:Ksh</string>
+    <string name="phone_no">Phone No</string>
+    <string name="post">Post</string>
+    <string name="take_pic">Take pic -> SELLit</string>
+    <string name="charge">Post-Charge</string>
+    <string name="click_me">3Dview-Phone?\n
+                                  Click Me!</string>
+    <string name="location">Location</string>
+    <string name="ready">Ready to post? Click your item cost!</string>
+    <string name="appreciate">please appreciate the CloudPlatform via developer\n
+                                                         M-pesa to 0703 934 731(Kabiru)</string>
+    <string name="search">Search</string>
+    <string name="buyit">SELLit\n
+                         BUYit</string>
+    <string name="welcome">WELCOME</string>
+    <string name="ADMOB_ADS_UNIT_ID">ca-app-pub-4449860337549137/4519711270</string>
+    <string name="ADMOB_ID">ca-app-pub-4449860337549137/3401731417</string>
+    <string name="ad_attribution">Ad</string>
+    <string name="skip_ad">Skip AD</string>
+    <string name="sellby_mall">SELLBY MALL</string>
+</resources>
