@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:570926704004:android:7983ab82080fc0f3e669d1",
         "android_client_info": {
-          "package_name": "com.example.imageshare"
+          "package_name": "my.awesome.imageshare"
         }
       },
       "oauth_client": [

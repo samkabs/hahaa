@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.imageshare">
-
+    package="my.awesome.imageshare">
+    <!-- Include required permissions for Google Mobile Ads to run. -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -9,6 +9,7 @@
     <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <uses-feature
         android:name="android.hardware.camera2"
@@ -16,23 +17,41 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher_foreground_round"
+        android:icon="@mipmap/ic_launcher_foreground"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_foreground_round"
+        android:roundIcon="@mipmap/ic_launcher_foreground"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainAdsActivity"></activity>
-        <activity android:name=".MainActivity6" />
+        <activity android:name=".AnimalsActivity" />
+        <activity android:name=".CakesAndEventsActivity" />
+        <activity android:name=".RentalsAndHotelsActivity" />
+        <activity android:name=".BooksActivity" />
+        <activity android:name=".CarsAndBikesActivity" />
+        <activity android:name=".FashionActivity" />
+        <activity android:name=".ElectronicsActivity" />
+        <activity android:name=".FurnitureActivity" />
+        <activity android:name=".PhoneActivity" />
+        <activity android:name=".DashboardActivity" />
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-4449860337549137~6071454334" />
+            android:value="ca-app-pub-1935496978933122~9397772475" />
+
+        <activity android:name="my.awesome.imageshare.MainAdsActivity"
+            android:hardwareAccelerated="true" />
+        <activity android:name="my.awesome.imageshare.MainActivity6"
+            android:hardwareAccelerated="true" />
+
         <meta-data
             android:name="com.google.android.gms.ads.AD_MANAGER_APP"
             android:value="true" />
 
-        <activity android:name=".ShowActivity" />
-        <activity android:name=".MainActivity3" />
+        <activity
+            android:name=".ShowActivity"
+            android:hardwareAccelerated="true"
+            android:exported="true"/>
+        <activity android:name=".MainActivity3"
+            android:hardwareAccelerated="true" />
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -43,7 +62,7 @@
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.example.imageshare.fileprovider"
+            android:authorities="my.awesome.imageshare.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
@@ -51,10 +70,12 @@
                 android:resource="@xml/fileprovider" />
         </provider>
 
-        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity" >
+
+        </activity>
 
         <service
-            android:name=".FirebaseMessagingService"
+            android:name=".MessagingService"
             android:exported="false"
             android:stopWithTask="false">
             <intent-filter>

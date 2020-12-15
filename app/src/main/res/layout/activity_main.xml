@@ -215,9 +215,10 @@ android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toEndOf="@+id/Phone"
+            android:inputType="textMultiLine"
             android:hint="@string/cost_ksh"
-            android:inputType="number"
             android:text=""
+
 
             />
     </RelativeLayout>
