@@ -22,6 +22,7 @@
         android:roundIcon="@mipmap/ic_launcher_foreground"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".GalleryActivity"></activity>
         <activity android:name=".AnimalsActivity" />
         <activity android:name=".CakesAndEventsActivity" />
         <activity android:name=".RentalsAndHotelsActivity" />
@@ -37,9 +38,11 @@
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-1935496978933122~9397772475" />
 
-        <activity android:name="my.awesome.imageshare.MainAdsActivity"
+        <activity
+            android:name=".MainAdsActivity"
             android:hardwareAccelerated="true" />
-        <activity android:name="my.awesome.imageshare.MainActivity6"
+        <activity
+            android:name=".MainActivity6"
             android:hardwareAccelerated="true" />
 
         <meta-data
@@ -48,9 +51,10 @@
 
         <activity
             android:name=".ShowActivity"
-            android:hardwareAccelerated="true"
-            android:exported="true"/>
-        <activity android:name=".MainActivity3"
+            android:exported="true"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name=".MainActivity3"
             android:hardwareAccelerated="true" />
         <activity android:name=".SplashActivity">
             <intent-filter>
@@ -70,9 +74,7 @@
                 android:resource="@xml/fileprovider" />
         </provider>
 
-        <activity android:name=".MainActivity" >
-
-        </activity>
+        <activity android:name=".MainActivity"></activity>
 
         <service
             android:name=".MessagingService"

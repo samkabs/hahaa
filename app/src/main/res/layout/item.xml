@@ -168,7 +168,7 @@
             android:textColor="#54E91E"
             android:textStyle="bold|italic"/>
 
-        <ImageButton
+        <ImageView
             android:id="@+id/call_icon"
             android:layout_width="33dp"
             android:layout_height="42dp"
@@ -180,7 +180,7 @@
             app:srcCompat="@drawable/call_icon"
            />
 
-        <ImageButton
+        <ImageView
             android:id="@+id/text_icon"
             android:layout_width="34dp"
             android:layout_height="35dp"
